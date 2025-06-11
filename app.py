@@ -9,8 +9,7 @@ st.set_page_config(page_title="ThinkHR Copilot", layout="wide")
 st.markdown("<h1 style='text-align: center;'>ThinkHR - Power BI + Chatbot</h1>", unsafe_allow_html=True)
 
 # ---- Embed Power BI Report ---- #
-embed_url = "https://app.powerbi.com/reportEmbed?reportId=dd989b6e-00b6-4a28-b25c-e309074b1bb8&autoAuth=true&ctid=38603a3d-dbcc-497e-a218-d5871ae8bbe3"
-
+embed_url = "https://app.powerbi.com/view?r=eyJrIjoiMDYzY2RmM2MtYTkyZC00YmQzLWIwYTAtNjU0MTI1M2Q4MmMyIiwidCI6IjM4NjAzYTNkLWRiY2MtNDk3ZS1hMjE4LWQ1ODcxYWU4YmJlMyJ9"
 components.html(
     f"""
     <div style="display: flex; justify-content: center; padding-bottom: 20px;">
